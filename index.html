@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+</head>
+<body>
+    <div class="sizes">
+  <label>
+    <input type="radio" name="size" value="l" checked onchange='onChange(this)'>
+   танцпол
+  </label>
+  <label>
+    <input type="radio" name="size" value="m" onchange='onChange(this)'>
+    вип места
+  </label>
+  <label>
+    <input type="radio" name="size" value="s" onchange='onChange(this)'>
+    встреча с исполнителем
+  </label>
+</div>
+
+<div class="card size_l" id="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThW85raiKTvSGGcE2xWd4q9NzYknmBoVzLmQ&s" class="photo">
+  <div class="info">
+    <h3> Какой-то концерт</h3>
+    <p>🗺&nbsp; Москва </p>
+    <p>🚇&nbsp; Маяковская</p>
+    <p>🕰️&nbsp; 19.00</p>
+  </div>
+  <div class="price" contenteditable="true">
+    ₽ 2100
+  </div>
+  <div class="description">
+    Какой-то концерт какой-то крутой московской группы в клубе "16 тонн", с возрастным ограничением 16+
+  </div>
+  <div class="actions">
+    <button type="button">📞</button>
+    <button type="button">❤️</button>
+  </div>
+  <div class="date" contenteditable="true">
+   на этой неделе
+  </div>
+</div>
+
+<!-- Start your code here -->
+
+<p class="lw"></p>
+
+<!-- End your code here -->
+</body>
+</html>
